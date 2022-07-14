@@ -302,3 +302,7 @@ $productMenuWidth: 320px;
 		border-top-right-radius: 0;
 	}
 }
+
+.overlay {
+	z-index: 1 !important;
+}
