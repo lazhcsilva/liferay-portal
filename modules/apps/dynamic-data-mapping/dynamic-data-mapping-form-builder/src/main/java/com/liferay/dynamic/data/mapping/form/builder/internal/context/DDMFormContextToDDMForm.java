@@ -14,6 +14,7 @@
 
 package com.liferay.dynamic.data.mapping.form.builder.internal.context;
 
+import com.liferay.dynamic.data.mapping.exception.FormFieldLimitException;
 import com.liferay.dynamic.data.mapping.form.builder.context.DDMFormContextDeserializer;
 import com.liferay.dynamic.data.mapping.form.builder.context.DDMFormContextDeserializerRequest;
 import com.liferay.dynamic.data.mapping.form.builder.context.DDMFormContextVisitor;
@@ -73,8 +74,7 @@ public class DDMFormContextToDDMForm
 				"serializedFormContext");
 
 		if (Validator.isNull(serializedFormContext)) {
-			throw new IllegalStateException(
-				"The property \"serializedFormContext\" is required");
+			throw new FormFieldLimitException();
 		}
 
 		return deserialize(serializedFormContext);
