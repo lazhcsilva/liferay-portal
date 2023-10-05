@@ -19,6 +19,7 @@ UpgradeJavaAssetEntryAssetCategoriesCheck | [Upgrade](upgrade_checks.markdown#up
 UpgradeJavaBasePanelAppExtendedClassesCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replace the setPortlet method with getPortlet |
 UpgradeJavaCaptchaUtilCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the usages of `CaptchaUti.serveImage(resourceRequest, resourceResponse)` with `CaptchaUti.serveImage(httpServletRequest, httpServletResponse)` |
 UpgradeJavaCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Performs upgrade checks for `java` files |
+UpgradeJavaCommerceAccountGroupRelLocalServiceCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces method addCommerceAccountGroupRel by addAccountGroupRel |
 UpgradeJavaCommerceCountryCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the old methods of class `CommerceCountry` with the new equivalents in the `Country` class. |
 UpgradeJavaCommerceCountryServiceCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the old methods of class `CommerceCountryService` with the new equivalents in the `CountryService` class. |
 UpgradeJavaCommerceRegionCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the old methods of class `CommerceRegion` with the new equivalents in the `Region` class. |
