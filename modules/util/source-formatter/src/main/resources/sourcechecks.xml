@@ -1672,6 +1672,11 @@
 			<description name="Performs upgrade checks for `java` files" />
 			<weight>3</weight>
 		</check>
+		<check name="UpgradeJavaCommerceAccountGroupRelLocalServiceCheck">
+			<category name="Upgrade" />
+			<description name="Replaces method addCommerceAccountGroupRel by addAccountGroupRel" />
+			<weight>2</weight>
+		</check>
 		<check name="UpgradeJavaCommerceCountryCheck">
 			<category name="Upgrade" />
 			<description name="Replaces the old methods of class `CommerceCountry` with the new equivalents in the `Country` class." />
