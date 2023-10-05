@@ -148,6 +148,21 @@ public class UpgradeSourceProcessorTest extends BaseSourceProcessorTestCase {
 	}
 
 	@Test
+	public void testUpgradeJavaCommerceAccountGroupRelLocalServiceCheck()
+		throws Exception {
+
+		test(
+			"upgrade/UpgradeJavaCommerceAccountGroupRelLocalServiceCheck." +
+				"testjava",
+			StringBundler.concat(
+				"Unable to format methods addAccountGroupRel and ",
+				"addCommerceAccountGroupRelfrom AccountGroupRelLocalService, ",
+				"AccountGroupRelLocalServiceUtil, AccountGroupRelService, ",
+				"AccountGroupRelServiceUtil. Format the new parameters ",
+				"manually, see LPS-197142"));
+	}
+
+	@Test
 	public void testUpgradeJavaCommerceCountryCheck() throws Exception {
 		test("upgrade/UpgradeJavaCommerceCountryCheck.testjava");
 	}
