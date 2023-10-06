@@ -3,6 +3,7 @@
 Check | Category | Description
 ----- | -------- | -----------
 UpgradeBNDIncludeResourceCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Checks if the property value `-includeresource` or `Include-Resource` exists and removes it |
+UpgradeCommerceOrderConstantsCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replace departed constants of CommerceOrderConstants by CommerceOrderPaymentConstants equivalents |
 UpgradeDLUtilCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replace the getGroupIds method of class `DLUtil` by getCurrentAndAncestorSiteGroupIds of class `PortalUtil`. |
 UpgradeGetClassNamesMethodCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Run code migration of method from 'getClassNames' to 'getSearchClassNames' |
 UpgradeGetImagePreviewURLMethodCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the references of the method 'DLUtil.getImagePreviewURL' with the method 'getImagePreviewURL' of 'DLURLHelper' class |
