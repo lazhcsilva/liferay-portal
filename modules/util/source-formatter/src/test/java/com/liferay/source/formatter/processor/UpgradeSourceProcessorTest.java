@@ -43,6 +43,12 @@ public class UpgradeSourceProcessorTest extends BaseSourceProcessorTestCase {
 	}
 
 	@Test
+	public void testUpgradeCommerceOrderConstantsCheck() throws Exception {
+		test("upgrade/UpgradeCommerceOrderConstantsCheck.testjava");
+		test("upgrade/UpgradeCommerceOrderConstantsCheck.testjsp");
+	}
+
+	@Test
 	public void testUpgradeDLUtilCheck() throws Exception {
 		test("upgrade/UpgradeJavaDLUtilCheck.testjava");
 		test("upgrade/UpgradeJSPDLUtilCheck.testjsp");
