@@ -1699,6 +1699,10 @@
 			<category name="Upgrade" />
 			<description name="Replace the parameter Int for BigDecimal of method validate of 'CommerceOrderValidator' interface" />
 		</check>
+		<check name="UpgradeJavaCommercePriceListLocalServiceCheck">
+			<category name="Upgrade" />
+			<description name="method changed" />
+		</check>
 		<check name="UpgradeJavaCookieKeysCheck">
 			<category name="Upgrade" />
 			<description name="CookieKeys class was replaced by CookiesManagerUtil and CookieConstants" />
