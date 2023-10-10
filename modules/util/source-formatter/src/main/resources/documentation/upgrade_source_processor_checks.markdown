@@ -25,6 +25,7 @@ UpgradeJavaCommerceCountryCheck | [Upgrade](upgrade_checks.markdown#upgrade-chec
 UpgradeJavaCommerceCountryServiceCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replaces the old methods of class `CommerceCountryService` with the new equivalents in the `CountryService` class. |
 UpgradeJavaCommerceOrderItemServicesCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Fill the new parameters of the method `addCommerceOrderItem` and `deleteCommerceOrderItems` of `CommerceOrderItemLocalService`, `CommerceOrderItemLocalServiceUtil`, `CommerceOrderItemService` and `CommerceOrderItemServiceUtil` classes |
 UpgradeJavaCommerceOrderValidatorCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replace the parameter Int for BigDecimal of method validate of 'CommerceOrderValidator' interface |
+UpgradeJavaCommercePriceListLocalServiceCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | method changed |
 UpgradeJavaCookieKeysCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | CookieKeys class was replaced by CookiesManagerUtil and CookieConstants |
 UpgradeJavaCookieUtilCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Replace CookieUtilCheck.get by CookiesManagerUtil.getCookieValue and reorder parameters |
 UpgradeJavaDLFolderMethodCheck | [Upgrade](upgrade_checks.markdown#upgrade-checks) | Fill the new parameter of the method addFolder of DLFolderLocalService, DLFolderLocalServiceUtil, DLFolderService and DLFolderServiceUtil |
